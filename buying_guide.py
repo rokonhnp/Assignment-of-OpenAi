@@ -57,7 +57,7 @@ for keyword in keywords:
   conclusion_prompt = f'Write a 100 word blog conclusion on {intro_prompt}'
 
   slug = slugify(keyword)
-  wp_title = f'Write a Buying Guide About The Best {keyword.title()}'
+  wp_title = f'Best {keyword.title()} Buying Guide in 2023'
 
   h2_important = f'Why {keyword.title()} Is Important'
   h2_how = f'How to Choose The Best {keyword.title()}'
